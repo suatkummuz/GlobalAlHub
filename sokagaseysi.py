@@ -3,7 +3,7 @@ soyisim     = input("soyadınızı giriniz:")
 yas         = input("yaşınızı giriniz:")
 dogumyili = input("doğum yılınızı giriniz:")
 
-userInfo = [isim,soyisim,yas,dogumyili]
+degisken = [isim,soyisim,yas,dogumyili]
 for ele in userInfo:
     print(ele,"\n")
 if int(yas) >= 18:
